@@ -32,6 +32,19 @@ const blurHeader = () =>{
 }
 window.addEventListener('scroll', blurHeader)
 
+/*=============== VANTAGENS JS ===============*/
+function toggleDescription(id) {
+  var desc = document.getElementById(id);
+  
+  // Alterna a exibição da descrição
+  if (desc.style.display === "none" || desc.style.display === "") {
+    desc.style.display = "block";
+  } else {
+    desc.style.display = "none";
+  }
+}
+
+
 /*=============== EMAIL JS ===============*/
 
 

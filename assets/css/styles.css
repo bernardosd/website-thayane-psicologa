@@ -442,8 +442,54 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: .75rem;
 }
+/*=============== VANTAGENS ===============*/
+.vantagens h2{
+  text-align: center;
+  padding: 30px;
+  margin top: 20px;
+  margin bottom: 5px;
+}
+.vantagens {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.vantagem {
+  margin-bottom: 10px;
+}
+
+.vantagem__title {
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--text-color); /* Mudar conforme seu tema */
+  color: white;
+  padding: 10px;
+  border-radius: 9px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 auto;
+  display: block;
+}
+
+.vantagem__desc {
+  display: none;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-left: 4px solid #8b5b4e; /* Mudar conforme seu tema */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /*=============== CONTACT ===============*/
-/*hsl(17, 26%, 88%) */
+.contact__section{
+  background-color: black;
+  padding: 200px;
+  align-items: center;
+  text-align: center;
+}
 
 /*=============== FOOTER ===============*/
 
