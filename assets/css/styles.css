@@ -484,16 +484,44 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+#contact{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 .contact__section{
   background-color: black;
-  padding: 200px;
   align-items: center;
   text-align: center;
+  margin: 20px;
 }
 
 /*=============== FOOTER ===============*/
+.footer{
 
-
+  background-color: var(--container-color);
+}
+.footer__container{
+  padding: 0.7rem;
+  row-gap: 0.5rem;
+}
+.footer__links{
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+.footer__link{
+  color: white;
+  font-weight: var(--font-semi-bold);
+  transition: color .4s;
+}
+.footer__link:hover{
+  color: var(--first-color-light);
+}
+.footer__copy{
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
 /*=============== SCROLL BAR ===============*/
 
 
@@ -678,5 +706,19 @@ img {
   .helpu__container{
     grid-template-columns: repeat(2, 350px);
   }
-  
+  .about__description{
+    margin: 0;
+  }
+  #about{
+    background-image: url(../img/bgpg1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  .vantagens{
+    background-image: url(../img/bgpg1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
 }
